@@ -23,3 +23,5 @@ print(type(height))  # Output: <class 'int'>
 is_student = int(is_student)  # This is valid; True becomes 1 and False becomes 0
 print(type(is_student))  # Output: <class 'int'>, since True becomes 1 and False becomes 0, which may not be obvious in all contexts
 
+name = bool(name)  # Convert string to boolean; non-empty strings are True
+print(type(name))  # Output: <class 'bool'>, since non-empty strings are considered True
