@@ -45,7 +45,7 @@ print(math.e)
 result = math.ceil(2.4) #round up to nearest integer
 result = math.floor(2.4) #round down to nearest integer
 
-
+'''
 #Exercises
 #Calculate circumference of a circle
 radius = float(input("Enter the radius of the circle: "))
@@ -54,4 +54,10 @@ print(f"Circumference of the circle: {round(circumference, 2)}cm")
 
 #Calculate area of a circle
 area = math.pi*pow(radius, 2)
-print(f"Area of the circle: {round(area, 2)}cm²")
+print(f"Area of the circle: {round(area, 2)}cm²")'''
+
+#Calculate hypotenuse of a right triangle
+a = float(input("Enter the length of the first non-hypotenuse side: "))
+b = float(input("Enter the length of the second non-hypotenuse side: "))
+hypotenuse = math.hypot(a, b)
+print(f"Hypotenuse of the triangle: {round(hypotenuse, 2)}")
