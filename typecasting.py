@@ -24,4 +24,4 @@ is_student = int(is_student)  # This is valid; True becomes 1 and False becomes 
 print(type(is_student))  # Output: <class 'int'>, since True becomes 1 and False becomes 0, which may not be obvious in all contexts
 
 name = bool(name)  # Convert string to boolean; non-empty strings are True
-print(type(name))  # Output: <class 'bool'>, since non-empty strings are considered True
+print(type(name))  # Output: <class 'bool'>, since non-empty strings are considered True # Can be used to check if a string is empty or not
