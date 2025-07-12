@@ -7,4 +7,3 @@ width = float(input("Enter the width of the rectangle: "))    # Input width
 area = length * width  # Calculate area
 
 print(f"The area of the rectangle is: {area}cm²")  # Output the area
-# The area is calculated using the formula: Area = Length * Width
